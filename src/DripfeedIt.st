@@ -237,6 +237,10 @@ jQuery
 
 initialize
 
+ "Story new appendToJQuery: '#desktop' asJQuery"
+!
+
+start
  Story new appendToJQuery: '#desktop' asJQuery
 ! !
 

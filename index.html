@@ -14,8 +14,9 @@
           amber.initialize({
             //used for all new packages in IDE
             'transport.defaultAmdNamespace': "amber-devdays"
-          });
+	    });
 	});
+	amber.globals.Story._start();
     </script>
     <button onclick="require('amber/helpers').globals.Browser._open()">legacy IDE</button>
     <button onclick="require('amber/helpers').popupHelios()">Helios IDE</button>
